@@ -1,0 +1,142 @@
+/* src/styles.module.css */
+
+/* General Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+/* Search Form Styles */
+.searchForm {
+    display: flex;
+    justify-content: center;
+    margin: 1rem ;
+}
+
+.searchInput {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.searchButton {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.searchButton:hover {
+    background-color: #218838;
+}
+
+/* Movie Card Styles */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.cardImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardButton {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.cardButton:hover {
+    background-color: #0056b3;
+}
+
+/* Movie Details Styles */
+.detailsContainer {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.detailsImage {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.detailsText {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Favorites Page Styles */
+.favoritesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favoritesTitle {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.noFavorites {
+    font-size: 1.3rem;
+    color: #888;
+    margin: 20px;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
